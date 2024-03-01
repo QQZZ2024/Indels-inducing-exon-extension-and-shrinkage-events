@@ -220,7 +220,7 @@ import re
 ID = open('/home/samplesID.txt')
 for j in ID:
 	j = j.rstrip()
-	mess = open("/home/ + j + "_site.bed")
+	mess = open("/home/" + j + "_site.bed")
 	outfile = open("/home/" + j + "_scmrange.bed",'w')
 	for i in mess:
 		i = i.rstrip()
