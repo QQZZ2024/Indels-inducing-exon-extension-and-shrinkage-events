@@ -217,7 +217,7 @@ done
 from tqdm import tqdm
 from time import sleep
 import re
-ID = open('/home/samplesID.txt)
+ID = open('/home/samplesID.txt')
 for j in ID:
 	j = j.rstrip()
 	mess = open("/home/ + j + "_site.bed")
